@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* INIZIO HEADER */
+.conteiner-header{
+    background-color: lightblue;
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+
+.conteiner-header .row-header{
+    width: 70%;
+    height: 30px;
+    margin: 15px auto;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    background-color: goldenrod;
+}
+.row-header .col{
+    display: flex;
+    width: calc(100% / 3);
+    height: 30px;
+    border: 1px dashed black;
+}
+
+.col .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* FINE HEADER */
+
+/* INIZIO MAIN */
+/* FIRST SECTION BLU container rosa */
+.background-blu{
+    width: 100%;
+    height: 500px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    padding-top: 70px;
+}
+
+.conteiner-pink{
+    width: 50%;
+    height: 350px;
+    background-color: rgba(255, 192, 229, 0.84);
+    border: 1px dashed black;
+    margin: 0 auto;
+}
+/* FINE FIRST SECTION BLU container rosa */
+
+/* second SECTION BLU  */
+.conteiner-bicolor{
+    height: 500px;
+    padding-top: 70px;
+    display: flex;
+}
+
+.row-due{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+    border: 1px dashed black;
+}
+.left{
+    display: flex;
+    width: 65%;
+    height: 350px;
+    background-color: rgba(8, 57, 148, 0.735);
+}
+
+.right{
+    display: flex;
+    width: 35%;
+    height: 350px;
+    background-color: rgb(223, 96, 218);
+}
+/* FINE second SECTION BLU  */
+.grey{
+    background-color: gray;
+}
+
+/* SECTION conteiner  green  */
+.background{
+    width: 100%;
+    height: 1000px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    padding-top: 70px;
+}
+
+.conteiner-green{
+    width: 75%;
+    height: 830px;
+    background-color: green;
+    border: 1px dashed black;
+    margin: 0 auto;
+}
+/* FINE container green  */
+/* FINE MAIN */
