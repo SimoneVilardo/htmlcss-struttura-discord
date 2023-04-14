@@ -129,8 +129,9 @@
 
 /* INIZIO FOOTER */
 .black{
-    background-color: rgba(0, 0, 0, 0.887);
+    background-color: black;
     padding-top: 10px;
+    border-bottom: 2px solid darkgray;
 }
 .footer-left{
     display: flex;
@@ -144,15 +145,6 @@
     background-color: rgba(8, 148, 108, 0.735);
     border: 1px dashed white;
 }
-
-/* .row-footer{
-    width: 70%;
-    height: 80px;
-    background-color: aquamarine;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
 
 .conteiner-footer{
     background-color: black;
