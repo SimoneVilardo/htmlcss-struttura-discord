@@ -154,7 +154,7 @@
     padding-top: 20px;
 }
 
-.conteiner-footer .row-footer{
+.row-footer{
     width: 70%;
     height: 80px;
     margin: 0 auto ;
@@ -163,7 +163,7 @@
     justify-content: space-between;
     background-color: aquamarine;
 }
-.row-footer .col-footer{
+.col-footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
